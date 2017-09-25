@@ -6,9 +6,26 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		0CBE052E1F78E92800AD11D7 /* EasyCollectionsUniversalLib */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 0CBE05311F78E92800AD11D7 /* Build configuration list for PBXAggregateTarget "EasyCollectionsUniversalLib" */;
+			buildPhases = (
+				0CBE05321F78E96D00AD11D7 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = EasyCollectionsUniversalLib;
+			productName = EasyCollectionsUniversalLib;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		0CBE05141F75CA7700AD11D7 /* EasyCollections.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 0CBE05131F75CA7700AD11D7 /* EasyCollections.h */; };
-		0CBE05161F75CA7700AD11D7 /* EasyCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE05151F75CA7700AD11D7 /* EasyCollections.m */; };
+		0CBE051E1F75CAD700AD11D7 /* CustomGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE051D1F75CAD700AD11D7 /* CustomGridView.m */; };
+		0CBE05221F75CB9F00AD11D7 /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE05201F75CB9F00AD11D7 /* CategoryCollectionViewCell.m */; };
+		0CBE05291F75CD0300AD11D7 /* ItemDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE05281F75CD0300AD11D7 /* ItemDetail.m */; };
+		0CBE052C1F75D07100AD11D7 /* UtilitiesHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CBE052B1F75D07100AD11D7 /* UtilitiesHelper.m */; };
+		106D0AFAB9FDBF666D7F2242 /* libPods-EasyCollections.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E35712AA27B8201E0C4F8FFC /* libPods-EasyCollections.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -18,7 +35,6 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
-				0CBE05141F75CA7700AD11D7 /* EasyCollections.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -26,8 +42,18 @@
 
 /* Begin PBXFileReference section */
 		0CBE05101F75CA7700AD11D7 /* libEasyCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libEasyCollections.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		0CBE05131F75CA7700AD11D7 /* EasyCollections.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EasyCollections.h; sourceTree = "<group>"; };
-		0CBE05151F75CA7700AD11D7 /* EasyCollections.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EasyCollections.m; sourceTree = "<group>"; };
+		0CBE051C1F75CAD700AD11D7 /* CustomGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomGridView.h; sourceTree = "<group>"; };
+		0CBE051D1F75CAD700AD11D7 /* CustomGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomGridView.m; sourceTree = "<group>"; };
+		0CBE051F1F75CB9F00AD11D7 /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		0CBE05201F75CB9F00AD11D7 /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		0CBE05211F75CB9F00AD11D7 /* CategoryCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CategoryCollectionViewCell.xib; sourceTree = "<group>"; };
+		0CBE05271F75CD0300AD11D7 /* ItemDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemDetail.h; sourceTree = "<group>"; };
+		0CBE05281F75CD0300AD11D7 /* ItemDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemDetail.m; sourceTree = "<group>"; };
+		0CBE052A1F75D06900AD11D7 /* UtilitiesHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilitiesHelper.h; sourceTree = "<group>"; };
+		0CBE052B1F75D07100AD11D7 /* UtilitiesHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UtilitiesHelper.m; sourceTree = "<group>"; };
+		6A2B2C7357EF5CC87CB61060 /* Pods-EasyCollections.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCollections.release.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCollections/Pods-EasyCollections.release.xcconfig"; sourceTree = "<group>"; };
+		E35712AA27B8201E0C4F8FFC /* libPods-EasyCollections.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EasyCollections.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F9D766D3376CC8266D59D88B /* Pods-EasyCollections.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EasyCollections.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EasyCollections/Pods-EasyCollections.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +61,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				106D0AFAB9FDBF666D7F2242 /* libPods-EasyCollections.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,6 +73,8 @@
 			children = (
 				0CBE05121F75CA7700AD11D7 /* EasyCollections */,
 				0CBE05111F75CA7700AD11D7 /* Products */,
+				1FB2506BCD887B29B6B58A08 /* Pods */,
+				55DD16D8E4F8A912C9DE3D0D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,10 +89,42 @@
 		0CBE05121F75CA7700AD11D7 /* EasyCollections */ = {
 			isa = PBXGroup;
 			children = (
-				0CBE05131F75CA7700AD11D7 /* EasyCollections.h */,
-				0CBE05151F75CA7700AD11D7 /* EasyCollections.m */,
+				0CBE052A1F75D06900AD11D7 /* UtilitiesHelper.h */,
+				0CBE052B1F75D07100AD11D7 /* UtilitiesHelper.m */,
+				0CBE05231F75CBC300AD11D7 /* CategoryCells */,
+				0CBE051C1F75CAD700AD11D7 /* CustomGridView.h */,
+				0CBE051D1F75CAD700AD11D7 /* CustomGridView.m */,
+				0CBE05271F75CD0300AD11D7 /* ItemDetail.h */,
+				0CBE05281F75CD0300AD11D7 /* ItemDetail.m */,
 			);
 			path = EasyCollections;
+			sourceTree = "<group>";
+		};
+		0CBE05231F75CBC300AD11D7 /* CategoryCells */ = {
+			isa = PBXGroup;
+			children = (
+				0CBE051F1F75CB9F00AD11D7 /* CategoryCollectionViewCell.h */,
+				0CBE05201F75CB9F00AD11D7 /* CategoryCollectionViewCell.m */,
+				0CBE05211F75CB9F00AD11D7 /* CategoryCollectionViewCell.xib */,
+			);
+			name = CategoryCells;
+			sourceTree = "<group>";
+		};
+		1FB2506BCD887B29B6B58A08 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F9D766D3376CC8266D59D88B /* Pods-EasyCollections.debug.xcconfig */,
+				6A2B2C7357EF5CC87CB61060 /* Pods-EasyCollections.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		55DD16D8E4F8A912C9DE3D0D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E35712AA27B8201E0C4F8FFC /* libPods-EasyCollections.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -73,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0CBE05191F75CA7700AD11D7 /* Build configuration list for PBXNativeTarget "EasyCollections" */;
 			buildPhases = (
+				5BEAC37D5FC562B967FAE893 /* [CP] Check Pods Manifest.lock */,
 				0CBE050C1F75CA7700AD11D7 /* Sources */,
 				0CBE050D1F75CA7700AD11D7 /* Frameworks */,
 				0CBE050E1F75CA7700AD11D7 /* CopyFiles */,
+				0AA9E9850FFF2F5ABCE984D0 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -98,6 +161,9 @@
 					0CBE050F1F75CA7700AD11D7 = {
 						CreatedOnToolsVersion = 7.3;
 					};
+					0CBE052E1F78E92800AD11D7 = {
+						CreatedOnToolsVersion = 7.3;
+					};
 				};
 			};
 			buildConfigurationList = 0CBE050B1F75CA7700AD11D7 /* Build configuration list for PBXProject "EasyCollections" */;
@@ -113,16 +179,69 @@
 			projectRoot = "";
 			targets = (
 				0CBE050F1F75CA7700AD11D7 /* EasyCollections */,
+				0CBE052E1F78E92800AD11D7 /* EasyCollectionsUniversalLib */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0AA9E9850FFF2F5ABCE984D0 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EasyCollections/Pods-EasyCollections-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0CBE05321F78E96D00AD11D7 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# define output folder environment variable\nUNIVERSAL_OUTPUTFOLDER=${BUILD_DIR}/${CONFIGURATION}-universal\n\n# Step 1. Build Device and Simulator versions\nxcodebuild -target EasyCollections ONLY_ACTIVE_ARCH=NO -configuration ${CONFIGURATION} -sdk iphoneos  BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\nxcodebuild -target EasyCollections -configuration ${CONFIGURATION} -sdk iphonesimulator -arch i386 BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\"\n\n# make sure the output directory exists\nmkdir -p \"${UNIVERSAL_OUTPUTFOLDER}\"\n\n# Step 2. Create universal binary file using lipo\nlipo -create -output \"${UNIVERSAL_OUTPUTFOLDER}/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/lib${PROJECT_NAME}.a\" \"${BUILD_DIR}/${CONFIGURATION}-iphonesimulator/lib${PROJECT_NAME}.a\"\n\n# Last touch. copy the header files. Just for convenience\ncp -R \"${BUILD_DIR}/${CONFIGURATION}-iphoneos/include\" \"${UNIVERSAL_OUTPUTFOLDER}/\"\n";
+		};
+		5BEAC37D5FC562B967FAE893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EasyCollections-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0CBE050C1F75CA7700AD11D7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CBE05161F75CA7700AD11D7 /* EasyCollections.m in Sources */,
+				0CBE052C1F75D07100AD11D7 /* UtilitiesHelper.m in Sources */,
+				0CBE05291F75CD0300AD11D7 /* ItemDetail.m in Sources */,
+				0CBE05221F75CB9F00AD11D7 /* CategoryCollectionViewCell.m in Sources */,
+				0CBE051E1F75CAD700AD11D7 /* CustomGridView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +332,7 @@
 		};
 		0CBE051A1F75CA7700AD11D7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F9D766D3376CC8266D59D88B /* Pods-EasyCollections.debug.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -222,10 +342,25 @@
 		};
 		0CBE051B1F75CA7700AD11D7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6A2B2C7357EF5CC87CB61060 /* Pods-EasyCollections.release.xcconfig */;
 			buildSettings = {
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		0CBE052F1F78E92800AD11D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0CBE05301F78E92800AD11D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
@@ -246,6 +381,15 @@
 			buildConfigurations = (
 				0CBE051A1F75CA7700AD11D7 /* Debug */,
 				0CBE051B1F75CA7700AD11D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0CBE05311F78E92800AD11D7 /* Build configuration list for PBXAggregateTarget "EasyCollectionsUniversalLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0CBE052F1F78E92800AD11D7 /* Debug */,
+				0CBE05301F78E92800AD11D7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};

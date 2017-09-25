@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="16F2073" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoryCell" id="gTV-IL-0wX" customClass="CategoryCollectionViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="137" height="137"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="137" height="137"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="category_detail_placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="bMx-A4-c87">
+                        <rect key="frame" x="0.0" y="0.0" width="137" height="137"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            </view>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="bMx-A4-c87" secondAttribute="trailing" id="4fb-dd-Ca4"/>
+                <constraint firstAttribute="bottom" secondItem="bMx-A4-c87" secondAttribute="bottom" id="5ct-zE-86i"/>
+                <constraint firstItem="bMx-A4-c87" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="8qU-wa-6Ex"/>
+                <constraint firstItem="bMx-A4-c87" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="JLU-dH-h4t"/>
+            </constraints>
+            <connections>
+                <outlet property="feedImage" destination="bMx-A4-c87" id="8Z3-ig-xTx"/>
+            </connections>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="category_detail_placeholder" width="122" height="123"/>
+    </resources>
+</document>
